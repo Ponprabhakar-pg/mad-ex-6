@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 e.setText("");
+                e1.setText("");
+                b1.setText("Generate Another OTP");
                 int n = 6; // Number of threads
                 for (i = 0; i < n; i++) {
 
@@ -50,6 +52,8 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+
     }
 }
 
